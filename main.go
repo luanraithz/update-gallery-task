@@ -1,7 +1,5 @@
 package main
 
-// [START pubsub_subscriber_async_pull]
-// [START pubsub_quickstart_subscriber]
 import (
 	"context"
 	"flag"
@@ -17,7 +15,6 @@ import (
 	"google.golang.org/api/iterator"
 )
 
-// gcloud auth application-default login
 
 func main() {
 	ch := make(chan bool)
